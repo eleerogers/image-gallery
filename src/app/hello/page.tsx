@@ -1,6 +1,6 @@
-const hello = async () => {
+const Hello = async () => {
   await new Promise((resolve) => setTimeout(resolve, 2000))
   return ( <div>HELLLOOOOO</div> );
 }
  
-export default hello;
+export default Hello;

@@ -2,9 +2,9 @@
 
 import Link from "next/link"
 import {Navbar, Nav, Container} from "react-bootstrap"
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation"
 
-const NavBar = () => {
+export default function NavBar() {
   const pathname = usePathname()
 
   return (
@@ -22,4 +22,3 @@ const NavBar = () => {
   );
 }
  
-export default NavBar;
