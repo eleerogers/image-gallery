@@ -7,7 +7,7 @@ interface ErrorPageProps {
   reset: () => void,
 }
 
-const Error = ({ error, reset }: ErrorPageProps) => {
+const ErrorPage = ({ error, reset }: ErrorPageProps) => {
   return (
     <div>
       <h1>Error!</h1>
@@ -17,4 +17,4 @@ const Error = ({ error, reset }: ErrorPageProps) => {
   );
 }
  
-export default Error;
+export default ErrorPage;
